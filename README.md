@@ -26,7 +26,7 @@ Reboot your phone!
 
 Go to Aow shortcut.
 Go to data > local > tmp > Gapps > app.
-Select all files and copy them to RootFS > app
+Select all files and copy them to RootFS > system > app
 Do the same thing with etc - lib - framework > Permission.
 Remember: Don't copy the folder; copy files from that folder (or File Explorer will duplicate the folder...)
 
