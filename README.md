@@ -1,13 +1,12 @@
--- PART 1 --
+# PART 1
+
 Requirements:
 IPOverUSBSvc installed
 
 Connect via USB and start 1INSTALL.bat
 Come back if the script says to you to come here.
 
--- PART 1 --
-
--- PART 2 --
+# PART 2
 
 Don't restart your phone!
 Required a lot of patience (File Explorer can easily crash....)
@@ -23,10 +22,7 @@ Open RootFS > system > xbin and copy here.
 
 Reboot your phone!
 
--- PART 2 --
-
-
--- PART 3 --
+# PART 3
 
 Go to Aow shortcut.
 Go to data > local > tmp > Gapps > app.
@@ -36,11 +32,9 @@ Remember: Don't copy the folder; copy files from that folder (or File Explorer w
 
 After finished, restart your phone, and then continue
 
--- PART 3 --
-
 Optional: Install Google's apps by launching "install apps" - Will install YouTube - GMaps - Google Search - Chrome. Do it after installed Gapps.
 
--- PART 4 --
+# PART 4
 
 Be sure you have connection in your phone.
 Launch Google Account Manager and enter your email and password.
@@ -48,5 +42,3 @@ If it say "Cannot connect to Google server" or something like, restart your phon
 Then Open Google Play Store. It should be blank or loading circle or with message like "Authentication required". Ignore that.
 Now, you can use GAPPS like Youtube
 PS: Try to install app that require google play games, like clash of clans.
-
--- PART 4 --
