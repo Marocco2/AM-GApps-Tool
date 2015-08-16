@@ -1,3 +1,6 @@
+Made by ADeltaX
+Hosted by Marocco2
+
 # PART 1
 
 Requirements:
