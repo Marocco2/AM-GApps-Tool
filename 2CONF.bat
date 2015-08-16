@@ -15,42 +15,82 @@ Echo -
 Echo Configuring Gapps from tmp data
 adb shell busybox chmod 0755 /system/xbin/busybox
 adb shell busybox mount -o rw,remount -t rootfs /
-adb shell busybox chmod 0777 /data/local/tmp/Gapps/app/GoogleContactsSyncAdapter.apk
-adb shell busybox chmod 0777 /data/local/tmp/Gapps/app/GoogleCalendarSyncAdapter.apk
-adb shell busybox chmod 0777 /data/local/tmp/Gapps/etc/permissions/features.xml
-adb shell busybox chmod 0777 /data/local/tmp/Gapps/etc/permissions/com.google.widevine.software.drm.xml
-adb shell busybox chmod 0777 /data/local/tmp/Gapps/etc/permissions/com.google.android.media.effects.xml
-adb shell busybox chmod 0777 /data/local/tmp/Gapps/etc/permissions/com.google.android.maps.xml
-adb shell busybox chmod 0777 /data/local/tmp/Gapps/etc/permissions/com.google.android.camera2.xml
-adb shell busybox chmod 0777 /data/local/tmp/Gapps/etc/permissions/com.google.android.ble.xml
-adb shell busybox chmod 0777 /data/local/tmp/Gapps/framework/com.google.widevine.software.drm.jar
-adb shell busybox chmod 0777 /data/local/tmp/Gapps/framework/com.google.android.media.effects.jar
-adb shell busybox chmod 0777 /data/local/tmp/Gapps/framework/com.google.android.camera2.jar
-adb shell busybox chmod 0777 /data/local/tmp/Gapps/framework/com.google.android.ble.jar
-adb shell busybox chmod 0777 /data/local/tmp/Gapps/lib/libWhisper.so
-adb shell busybox chmod 0777 /data/local/tmp/Gapps/lib/libwearable-selector.so
-adb shell busybox chmod 0777 /data/local/tmp/Gapps/lib/libsslwrapper_jni.so
-adb shell busybox chmod 0777 /data/local/tmp/Gapps/lib/libNearbyApp.so
-adb shell busybox chmod 0777 /data/local/tmp/Gapps/lib/libjgcastservice.so
-adb shell busybox chmod 0777 /data/local/tmp/Gapps/lib/libgmscore.so
-adb shell busybox chmod 0777 /data/local/tmp/Gapps/lib/libgms-ocrclient.so
-adb shell busybox chmod 0777 /data/local/tmp/Gapps/lib/libgcastv2_support.so
-adb shell busybox chmod 0777 /data/local/tmp/Gapps/lib/libgcastv2_base.so
-adb shell busybox chmod 0777 /data/local/tmp/Gapps/lib/libdirect-audio.so
-adb shell busybox chmod 0777 /data/local/tmp/Gapps/lib/libconscrypt_gmscore_jni.so
-adb shell busybox chmod 0777 /data/local/tmp/Gapps/lib/libAppDataSearch.so
-adb shell busybox chmod 0777 /data/local/tmp/Gapps/app/SetupWizard.apk
-adb shell busybox chmod 0777 /data/local/tmp/Gapps/app/PrebuiltGmsCore.apk
-adb shell busybox chmod 0777 /data/local/tmp/Gapps/app/phonesky.apk
-adb shell busybox chmod 0777 /data/local/tmp/Gapps/app/GoogleServicesFramework.apk
+adb shell busybox chmod 0777 /data/local/tmp/Gapps/app/com.google.android.gms.apk
+adb shell busybox chmod 0777 /data/local/tmp/Gapps/app/com.google.android.play.games.apk
 adb shell busybox chmod 0777 /data/local/tmp/Gapps/app/GooglePartnerSetup.apk
 adb shell busybox chmod 0777 /data/local/tmp/Gapps/app/GoogleOneTimeInitializer.apk
 adb shell busybox chmod 0777 /data/local/tmp/Gapps/app/GoogleLoginService.apk
 adb shell busybox chmod 0777 /data/local/tmp/Gapps/app/GoogleBackupTransport.apk
+adb shell busybox chmod 0777 /data/local/tmp/Gapps/app/GoogleContactsSyncAdapter.apk
+adb shell busybox chmod 0777 /data/local/tmp/Gapps/app/GoogleCalendarSyncAdapter.apk
+adb shell busybox chmod 0777 /data/local/tmp/Gapps/app/GoogleFeedback.apk
+adb shell busybox chmod 0777 /data/local/tmp/Gapps/app/GoogleServicesFramework.apk
+adb shell busybox chmod 0777 /data/local/tmp/Gapps/app/com.google.android.gsf.login.apk
 
+Echo Installing services
+adb install Files\Gappsinstall\com.android.vending.apk
+adb install Files\Gappsinstall\com.google.android.gsf.login.apk
+adb install Files\Gapps\app\com.google.android.play.games.apk
+adb install Files\Gapps\app\com.google.android.gms.apk
+cls
+Echo -
+Echo Installing YouTube
+adb install Files\Apps\YouTube.apk
+cls
+Echo -
+Echo Installing Chrome
+adb install Files\Apps\GChrome.apk
+cls
+Echo -
+Echo Installing Google Drive
+adb install Files\Apps\GDrive.apk
+cls
+Echo -
+Echo Installing Google Maps
+adb install Files\Apps\GMaps.apk
+cls
+Echo -
+Echo Installing Google Search
+adb install Files\Apps\GSearch.apk
+cls
+Echo -
+Echo Installing Google Music
+adb install Files\Apps\GMusic.apk
+cls
+Echo -
+Echo Installing Google Earth
+adb install Files\Apps\GEarth.apk
+cls
+Echo -
+Echo Installing Google Plus
+adb install Files\Apps\GPlus.apk
+cls
+Echo -
+Echo Installing Google Translate
+adb install Files\Apps\GTranslate.apk
+cls
+Echo -
+Echo Installing Google Keep
+adb install Files\Apps\GKeep.apk
+cls
+Echo -
+Echo Installing Google Docs
+adb install Files\Apps\GDocs.apk
+cls
+Echo -
+Echo Installing Google Sheets
+adb install Files\Apps\GSheets.apk
+cls
+Echo -
+Echo Installing Google Slides
+adb install Files\Apps\GSlides.apk
+cls
+Echo -
+Echo Installing Google Slides
+adb install Files\Apps\Hangout.apk
 Echo Wait 5 seconds
 Ping 127.0.0.1 -n 5 >nul
-
+pause
 cls
 TITLE FOLLOW PART 3 OF THE GUIDE
 color 9e

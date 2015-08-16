@@ -14,6 +14,7 @@ Echo -
 Echo Pushing BusyBox and Gapps Minimal...
 adb push Files\BusyBox /data/local/tmp/BusyBox
 adb push Files\Gapps /data/local/tmp/Gapps
+adb push Files\Other /data/local/tmp/Gapps/app
 Echo -
 Echo Now setting permissions for BusyBox ...
 adb shell chmod 0755 /data/local/tmp/BusyBox/busybox
