@@ -19,6 +19,11 @@ Remove following apps:
 * GoogleCalendarSyncAdapter.apk
 * GoogleFeedback.apk
 * com.google.android.gsf.login.apk
+* phonesky.apk
+* SetupWizard.apk
+* PrebuiltGmsCore.apk
+* Cob1.apk
+* Cob2.apk
 
 
 Go up and remove these files from "framework" folder:
