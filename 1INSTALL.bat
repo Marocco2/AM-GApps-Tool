@@ -30,7 +30,7 @@ TITLE FOLLOW PART 2 OF THE GUIDE
 color 9e
 Echo !! Now, follow part 2 of the guide !!
 Echo !! Now, follow part 2 of the guide !!
-start "" Guide.txt
+start "" README.md
 Echo[
 Echo[
 Echo[

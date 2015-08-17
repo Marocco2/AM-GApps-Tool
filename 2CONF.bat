@@ -86,7 +86,7 @@ Echo Installing Google Slides
 adb install Files\Apps\GSlides.apk
 cls
 Echo -
-Echo Installing Google Slides
+Echo Installing Google Hangout
 adb install Files\Apps\Hangout.apk
 Echo Wait 5 seconds
 Ping 127.0.0.1 -n 5 >nul
@@ -96,7 +96,7 @@ TITLE FOLLOW PART 3 OF THE GUIDE
 color 9e
 Echo !! Now, follow part 3 of the guide !!
 Echo !! Now, follow part 3 of the guide !!
-start "" Guide.txt
+start "" README.md
 Echo[
 Echo[
 Echo[
