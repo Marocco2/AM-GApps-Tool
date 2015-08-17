@@ -6,8 +6,10 @@ Echo -
 Echo Killing ADB Server
 adb kill-server
 Echo -
-Echo Launching wconnect as usb
-wconnect usb
+Echo Are you using usb or wifi?
+Set /p n=(if wifi, write the ip): 
+Echo Launching wconnect
+wconnect %n%
 Echo -
 Echo Listing ADB Devices
 adb devices

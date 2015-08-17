@@ -7,7 +7,7 @@ Echo Killing ADB Server
 adb kill-server
 Echo -
 Echo Launching wconnect as usb
-wconnect usb
+wconnect %n%
 Echo -
 Echo Listing ADB Devices
 adb devices
