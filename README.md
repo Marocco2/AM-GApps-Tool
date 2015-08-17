@@ -1,7 +1,7 @@
 Made by ADeltaX
 Hosted by Marocco2
 
-# PART 1
+## PART 1
 
 Requirements:
 IPOverUSBSvc installed
@@ -9,7 +9,7 @@ IPOverUSBSvc installed
 Connect via USB and start 1INSTALL.bat
 Come back if the script says to you to come here.
 
-# PART 2
+## PART 2
 
 Don't restart your phone!
 Required a lot of patience (File Explorer can easily crash....)
@@ -25,7 +25,7 @@ Open RootFS > system > xbin and copy here.
 
 Reboot your phone!
 
-# PART 3
+## PART 3
 
 Go to Aow shortcut.
 Go to data > local > tmp > Gapps > app.
@@ -37,7 +37,7 @@ After finished, restart your phone, and then continue
 
 Optional: Install Google's apps by launching "install apps" - Will install YouTube - GMaps - Google Search - Chrome. Do it after installed Gapps.
 
-# PART 4
+## PART 4
 
 Be sure you have connection in your phone.
 Launch Google Account Manager and enter your email and password.
