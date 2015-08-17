@@ -32,6 +32,18 @@ adb install Files\Gappsinstall\com.android.vending.apk
 adb install Files\Gappsinstall\com.google.android.gsf.login.apk
 adb install Files\Gapps\app\com.google.android.play.games.apk
 adb install Files\Gapps\app\com.google.android.gms.apk
+
+ECHO ...............................................
+ECHO PRESS 1 if you want finish the setup now.
+ECHO[
+ECHO PRESS 2 if you want install all GApps
+ECHO ...............................................
+SET /P M=Type 1 or 2, then press ENTER:
+IF %M%==1 GOTO FINISH
+IF %M%==2 GOTO FULL
+
+
+:FULL
 cls
 Echo -
 Echo Installing YouTube
@@ -88,6 +100,9 @@ cls
 Echo -
 Echo Installing Google Hangout
 adb install Files\Apps\Hangout.apk
+GOTO FINISH
+
+:FINISH
 Echo Wait 5 seconds
 Ping 127.0.0.1 -n 5 >nul
 pause
