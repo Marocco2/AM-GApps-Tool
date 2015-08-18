@@ -2,7 +2,7 @@
 ## Hosted by Marocco2
 
 ### WTF IS TH1S TO0L??!11?
-This tool installs Google Apps on Windows 10 Mobile
+This tool installs Google Apps on Windows 10 Mobile.
 There are still some issues (such as make GMS work) because MS is good to make modder's life harder.
 
 ### INSTALLATION
@@ -11,7 +11,7 @@ IPOverUSBSvc installed
 
 Open a CMD as Admin on that folder, then open installer.bat and follow instructions on screen.
 
-### UNISTALL THE TOOL
+### UNINSTALL THE TOOL
 
 Go to C:\Data\Users\DefApps\APPDATA\Local\Aow\data\local\tmp and remove all folders and files
 
