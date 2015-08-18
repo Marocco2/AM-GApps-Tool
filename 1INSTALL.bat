@@ -1,30 +1,38 @@
 @Echo off
 TITLE Send BusyBox and Gapps Minimal
 Color 9f
-Echo -
+cls
+Echo -----------------------
 Echo Killing ADB Server
 adb kill-server
-Echo -
+Echo -----------------------
+Echo[
 Echo Are you using usb or wifi?
-Set /p n=(if wifi, write the ip): 
+Set /p n=(if wifi, write the ip):
+Echo[ 
 Echo Launching wconnect
 wconnect %n%
-Echo -
+Echo[
+Echo -----------------------
 Echo Listing ADB Devices
 adb devices
-Echo -
+Echo -----------------------
+Echo[
 Echo Pushing BusyBox and Gapps Minimal...
 adb push Files\BusyBox /data/local/tmp/BusyBox
 adb push Files\Gapps /data/local/tmp/Gapps
 adb push Files\Other /data/local/tmp/Gapps/app
-Echo -
+Echo[
+Echo Done
+Echo[
+Echo -----------------------
 Echo Now setting permissions for BusyBox ...
 adb shell chmod 0755 /data/local/tmp/BusyBox/busybox
+Echo[
+Echo[
 Echo Completed
 Echo[
 Echo We will configure it later.
-Echo[
-Echo Press enter pls
 pause
 
 cls

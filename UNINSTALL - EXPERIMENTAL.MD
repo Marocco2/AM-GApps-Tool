@@ -10,14 +10,6 @@ Remove following apps:
 
 * com.google.android.gms.apk
 * com.google.android.play.games.apk
-* GooglePartnerSetup.apk
-* GoogleOneTimeInitializer.apk
-* GoogleServicesFramework.apk
-* GoogleLoginService.apk
-* GoogleBackupTransport.apk
-* GoogleContactsSyncAdapter.apk
-* GoogleCalendarSyncAdapter.apk
-* GoogleFeedback.apk
 * com.google.android.gsf.login.apk
 * Cob1.apk
 * Cob2.apk
