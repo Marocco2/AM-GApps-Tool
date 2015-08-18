@@ -6,7 +6,7 @@ Echo -
 Echo Killing ADB Server
 adb kill-server
 Echo -
-Echo Launching wconnect as usb
+Echo Launching wconnect on %n%
 wconnect %n%
 Echo -
 Echo Listing ADB Devices
@@ -38,3 +38,4 @@ TITLE Reboot!
 color 9e
 Echo Reboot your phone, see the PART 4 and then you are done!
 pause
+exit
