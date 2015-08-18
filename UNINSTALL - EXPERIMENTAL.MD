@@ -5,7 +5,7 @@ Go to C:\Data\Users\DefApps\APPDATA\Local\Aow\data\local\tmp and remove all fold
 After that, go up and go to "app" folder
 Remove following apps:
 
-* com.google.android.gms.apk
+* gmscore.apk
 
 After that reboot.
 Now you have completely uninstalled AM Gapps tool.
