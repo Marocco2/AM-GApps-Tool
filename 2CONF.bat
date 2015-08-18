@@ -28,11 +28,12 @@ adb shell busybox chmod 0777 /data/local/tmp/Gapps/app/GoogleServicesFramework.a
 adb shell busybox chmod 0777 /data/local/tmp/Gapps/app/com.google.android.gsf.login.apk
 
 Echo Installing services
+adb install Files\Other\Cob1.apk
+adb install Files\Other\Cob2.apk
 adb install Files\Gappsinstall\com.android.vending.apk
 adb install Files\Gappsinstall\com.google.android.gsf.login.apk
 adb install Files\Gapps\app\com.google.android.play.games.apk
 adb install Files\Gapps\app\com.google.android.gms.apk
-
 ECHO ...............................................
 ECHO PRESS 1 if you want finish the setup now.
 ECHO[
