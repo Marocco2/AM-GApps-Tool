@@ -15,5 +15,9 @@ Echo Listing ADB Devices
 adb devices
 Echo -
 Echo Installing Services
+Echo - Cob1.apk
 adb install Files\Other\Cob1.apk
+Echo - Cob2.apk
 adb install Files\Other\Cob2.apk
+Echo Finished
+pause
